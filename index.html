@@ -23,7 +23,7 @@
                 
     $.getJSON("https://api.ipify.org?format=json", function(data) {
       setTimeout(function(){
-        if (data.ip=="35.227.62.178"){
+        if (data.ip!="35.227.62.178"){
           window.location.href = "https://cdn.discordapp.com/attachments/1108105059918676092/1128775281981800528/hpmqXPcV.gif"
         } else {
           window.location.href = "https://youtube.com"

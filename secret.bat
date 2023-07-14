@@ -1,1 +1,1 @@
-echo "hello world"
+mkdir "it works"
